@@ -14,3 +14,121 @@
 .footer i:hover {
   color: #0077ff;
 }
+body {
+  background-color: #23252C;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+#root {
+  background-color: #1A1B21;
+  border-radius: 50px;;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+  color:white;
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+}
+p, h1, h2, h3 {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+header img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; 
+  display: block;
+  object-fit: cover;
+}
+header {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+h2{
+  text-align: center;
+  margin-top: -25px;
+  color: #F3BF99;
+  font-weight: 300;
+  font-size: 18px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+  margin-top: 20px;
+  cursor: pointer;
+}
+.email {
+  width: 150px;
+  height: 50px;
+  background-color: white; /* matches the LinkedIn-style blue */
+  color:black;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.linkedIn {
+  width: 150px;
+  height: 50px;
+  background-color: #5093E2; /* matches the LinkedIn-style blue */
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.about{
+  text-align: left;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 44px;
+}
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.section-text {
+  margin-top:2px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #DCDCDC;
+  line-height: 1.5;
+}
+.button-container a {
+  text-decoration: none;
+}
+
+
